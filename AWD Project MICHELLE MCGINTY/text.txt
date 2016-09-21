@@ -1,0 +1,6 @@
+Layout
+I divided the right column into 2, right column inner and outer, the inner section is for the text ect, and the outer is just to keep the size.
+I set the side menu to set width so it will always be the same siz no matter the size of the window.
+
+Updated badge
+With this i messed around with negative margins and text indent until i felt it was in the right place.

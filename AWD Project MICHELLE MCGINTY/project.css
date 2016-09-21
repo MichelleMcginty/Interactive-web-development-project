@@ -1,0 +1,334 @@
+/*------------------- Fonts --------------------*/
+font-face {
+    font-family: 'seasideresortnfregular';
+    src: url('seasideresortnf_regular_macroman/SEASRN__-webfont.eot');
+    src: url('seasideresortnf_regular_macroman/SEASRN__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('seasideresortnf_regular_macroman/SEASRN__-webfont.woff') format('woff'),
+         url('seasideresortnf_regular_macroman/SEASRN__-webfont.ttf') format('truetype'),
+         url('seasideresortnf_regular_macroman/SEASRN__-webfont.svg#seasideresortnfregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'walkway_blackregular';
+    src: url('walkwayblack_regular_macroman/Walkway_Black-webfont.eot');
+    src: url('walkwayblack_regular_macroman/Walkway_Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('walkwayblack_regular_macroman/Walkway_Black-webfont.woff') format('woff'),
+         url('walkwayblack_regular_macroman/Walkway_Black-webfont.ttf') format('truetype'),
+         url('walkwayblack_regular_macroman/Walkway_Black-webfont.svg#walkway_blackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cantarellregular';
+    src: url('cantarell_regular_macroman/Cantarell-Regular-webfont.eot');
+    src: url('cantarell_regular_macroman/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cantarell_regular_macroman/Cantarell-Regular-webfont.woff') format('woff'),
+         url('cantarell_regular_macroman/Cantarell-Regular-webfont.ttf') format('truetype'),
+         url('cantarell_regular_macroman/Cantarell-Regular-webfont.svg#cantarellregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*------------------- Used for all pages --------------------*/
+
+
+#index #home a,/*-- White Triangle --*/
+#gallery #gallery a,
+#apps #apps a
+{
+	background-image:url(white-triangle.png);
+	background-repeat:no-repeat;
+	background-position: right center;
+}
+
+#page
+{
+	background-size: 100%;
+	background-color:#FFFFFF;
+}
+
+body
+{	
+	font-family:'walkway_blackregular';
+	background-image: url(grey.jpg);
+	margin:17%;
+	font-size:1.3em;
+}
+
+  h2, h3 ,h5
+{
+	font-family:'walkway_blackregular';
+	text-align: left;
+	font-size:2.63em;
+}
+
+h1{
+	font-size:3.4em;
+	font-family: 'seasideresortnf';
+	text-align:center;
+	padding-top:25px;
+}
+
+h4
+{
+	text-align: center;
+	font-size:2.23m;
+	font-family: 'cantarellregular';
+	color:#FFFFFF;
+} 
+
+h5
+{
+	padding-top:-20px;
+}
+
+/*------------------- header --------------------*/
+
+header
+{
+	margin-top:-175px;
+	text-align: center;
+	background-color:#FFB414;
+	height:130px;
+	position:relative;
+}
+
+
+header div
+{
+	background: url(spritesheet.png) no-repeat;
+	background-position: -765px -5px;
+	position:absolute;
+	direction:rtl;
+	width:220px;
+	height:80px;
+	color:white;
+	line-height:30px;
+	direction:rtl;
+	text-indent:-100px;
+	top:0px;
+	right:0px;
+}
+
+/*------------------- Side Menu ---------------------*/
+
+#sidemenu
+{
+	font-family:'walkway_blackregular';
+	float:left;
+	display: block;
+	width:230px;
+	height: auto;
+	background-color:#e5d95d;
+	text-decoration: none;
+	font-weight:bold;
+	text-align:center-left;
+	color:#ffffff;
+	font-size:2em;
+	list-style:none;
+}
+
+#sidemenu ul
+ {
+
+	padding: 0px;
+	margin: 0px;
+	list-style:none;
+}
+#sidemenu li
+ {
+	list-style:none;
+	overflow:hidden;
+	margin:0px;
+	padding: 0px;
+	text-align:center;
+}
+
+#sidemenu li a:hover 
+{
+    background-color: #FFFF9A;
+}
+
+#sidemenu li a 
+{
+	line-height: 80px;
+	border-bottom: #A0A0A0 solid 2px;
+	margin: 0px;
+	display: block;
+	padding:0px;
+	color:#000000;
+}
+
+/*-------------------- Right column --------------------*/
+
+#rightcolume_outer
+{
+	width:100%;
+	background-color:#e5d95d; 
+}
+
+
+#rightcolume_outer a[href^="http://"]
+{
+	background:url(link.png) center right no-repeat;
+	padding-right:20px;
+}
+
+#rightcolume_inner
+{
+	float:center-right;
+	background-color:#FFFFFF;
+	overflow: hidden;
+	padding-left:25px;
+	background-size:100%;
+	text-align: left;
+}
+
+/*------------------- Footer --------------------*/
+
+footer
+{
+	display: inline-block;
+	background-color:#7D7D77;
+	font-size: 1em;
+	text-align: center;
+	width:100%;
+	height:75px;
+}
+
+footer li
+{
+	margin-bottom:100px;
+	display:inline;
+	padding-right: 20px;
+	vertical-align: middle; 
+}
+
+footer li a 
+{
+	color: #FFFFFF;
+}
+
+/*------------------- Gallery Page --------------------*/
+
+#galleryimages
+{
+	padding: 0px;
+	display:block;
+}
+
+#galleryimages li
+{
+	list-style: none;
+	margin-bottom: 30px;
+	display:block;
+	text-align:center;
+}
+
+#galleryimages li >div
+{
+	display:inline-block;
+	background-color: #ffffff;
+	text-align:right;
+	padding: 20px;
+	border: 2px solid;
+	line-height:20px;	
+}
+
+/*------------------- Apps Page --------------------*/
+.apps
+{
+	max-width:400px;
+	padding: 0px;
+	overflow:auto;
+	margin:auto;
+}
+
+.App
+{
+	text-align:center;
+	list-style:none;
+	display:inline-block;
+	margin:5px;
+	width:120px;
+	height:170px;
+	float:left;
+}
+
+.icon 
+{
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+	width: 100px; 
+	height: 100px;
+	margin:10px ;
+}
+
+.badge
+{
+	background:url(spritesheet.png) no-repeat;
+	background-position: -115px -5px;
+	position:relative;
+	z-index:997;
+	width:30px;
+	height:30px;
+	float:right;
+	margin-top:-125px;
+	margin-left:0px;
+	color:#FFFFFF;
+	line-height:30px;
+}
+
+.icon:hover + .badge 
+{
+	width:60px;
+	height:60px;
+	float:right;
+	margin-top:-150px;
+	margin-right:-15px;
+	background-position: -155px -5px;
+	font-size:2em;
+	line-height:60px;
+}
+
+.caption
+{
+	font-size:1em;
+}
+
+#app .icon
+{
+	background-position:-5px -5px;
+}
+
+#blog .icon
+{
+	background-position: -225px -5px;
+}
+#photoshop .icon
+{
+	background-position: -665px -5px;
+}
+#linkedin .icon
+{
+	background-position: -555px -5px;
+}
+
+#google .icon
+{
+	background-position: -335px -5px;
+}
+
+#googleplus .icon
+{
+	background-position:-445px -5px;
+}
+
+#vkontakte .icon
+{
+	background-position:-995px -5px;
+}
